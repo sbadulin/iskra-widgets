@@ -27,9 +27,8 @@
 
 При оставлении email происходит вызов
 
-if (stcl && stcl.target)
-
- stcl.target("Подписка на рассылку", {"Email":client@email.com});
+`if (stcl && stcl.target)
+    stcl.target("Подписка на рассылку", {"Email":client@email.com});`
 
 и окно закрывается.
 
